@@ -1,0 +1,286 @@
+:root {
+  --dark-color: #2e2f42;
+  --light-color: #f4f4fd;
+  --white-color: #ffffff;
+  --primary-brand-color: #4d5ae5;
+  --text-color: #434455;
+  --accent-color: #e7e9fc;
+  --pressed-state-color: #404bbf;
+  --secondary-font: 'Raleway', sans-serif;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.logo-dark {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand-color);
+}
+
+.logo-dark span {
+  color: var(--dark-color);
+}
+.logo-light {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-brand-color);
+}
+
+.logo-light span {
+  color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+
+/*----------------------Header----------------------*/
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+
+.header-logo span {
+}
+
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--dark-color);
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--primary-brand-color);
+}
+
+.contact {
+}
+.contact-list {
+}
+.contact-item {
+}
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--primary-brand-color);
+}
+
+/*----------------------Hero----------------------*/
+
+.hero {
+  background-color: var(--dark-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--white-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: var(--white-color);
+
+  background-color: var(--primary-brand-color);
+
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+/*----------------------Features----------------------*/
+
+.feature {
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.feature-list {
+}
+.feature-item {
+}
+.feature-subtitle {
+  color: var(--dark-color);
+}
+.feature-text {
+  color: var(--text-color);
+}
+
+/*----------------------Activity----------------------*/
+
+.activity {
+}
+.activity-title {
+  color: var(--dark-color);
+}
+.activity-list {
+}
+.activity-item {
+}
+
+/*----------------------Team----------------------*/
+
+.team {
+  background-color: var(--light-color);
+}
+.team-title {
+  color: var(--dark-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+  color: var(--dark-color);
+}
+.team-text {
+  color: var(--text-color);
+}
+
+/*----------------------Page Portfolio----------------------*/
+/*----------------------Filter----------------------*/
+
+.filter-list {
+}
+.filter-item {
+}
+.filter-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--primary-brand-color);
+
+  background-color: var(--light-color);
+
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
+
+/*----------------------Portfolio----------------------*/
+
+.portfolio {
+}
+.visually-hidden {
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+  color: var(--dark-color);
+}
+.portfolio-text {
+  color: var(--text-color);
+}
+
+/*----------------------Footer----------------------*/
+
+.footer {
+  background-color: var(--dark-color);
+}
+.footer-logo {
+}
+.footer-text {
+  color: var(--accent-color);
+}
