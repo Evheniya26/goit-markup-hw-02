@@ -60,6 +60,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  color: var(--dark-color);
 }
 .subtitle {
   font-weight: 500;
@@ -67,6 +69,8 @@ body {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
+
+  color: var(--dark-color);
 }
 .text {
   font-weight: 400;
@@ -74,8 +78,26 @@ body {
   line-height: 1.5;
 
   letter-spacing: 0.02em;
-}
 
+  color: var(--text-color);
+}
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
 /*----------------------Header----------------------*/
 
 .header {
@@ -84,10 +106,8 @@ body {
 }
 .header-logo {
 }
-
 .header-logo span {
 }
-
 .header-list {
 }
 .header-item {
@@ -147,25 +167,16 @@ body {
   color: var(--white-color);
 }
 .hero-btn {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-
   color: var(--white-color);
 
   background-color: var(--primary-brand-color);
 
-  cursor: pointer;
+  border: inherit;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--pressed-state-color);
+  border: inherit;
 }
 /*----------------------Features----------------------*/
 
@@ -189,10 +200,8 @@ body {
 .feature-item {
 }
 .feature-subtitle {
-  color: var(--dark-color);
 }
 .feature-text {
-  color: var(--text-color);
 }
 
 /*----------------------Activity----------------------*/
@@ -200,7 +209,6 @@ body {
 .activity {
 }
 .activity-title {
-  color: var(--dark-color);
 }
 .activity-list {
 }
@@ -213,50 +221,17 @@ body {
   background-color: var(--light-color);
 }
 .team-title {
-  color: var(--dark-color);
 }
 .team-list {
 }
 .team-item {
 }
 .team-subtitle {
-  color: var(--dark-color);
 }
 .team-text {
-  color: var(--text-color);
 }
 
 /*----------------------Page Portfolio----------------------*/
-/*----------------------Filter----------------------*/
-
-.filter-list {
-}
-.filter-item {
-}
-.filter-btn {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-
-  color: var(--primary-brand-color);
-
-  background-color: var(--light-color);
-
-  cursor: pointer;
-}
-.filter-btn:hover,
-.filter-btn:focus {
-  color: var(--white-color);
-  background-color: var(--pressed-state-color);
-}
-
 /*----------------------Portfolio----------------------*/
 
 .portfolio {
@@ -267,11 +242,23 @@ body {
 }
 .portfolio-item {
 }
+.portfolio-btn {
+  color: var(--primary-brand-color);
+
+  background-color: var(--light-color);
+
+  border-color: var(--accent-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--white-color);
+
+  background-color: var(--pressed-state-color);
+}
+
 .portfolio-subtitle {
-  color: var(--dark-color);
 }
 .portfolio-text {
-  color: var(--text-color);
 }
 
 /*----------------------Footer----------------------*/
