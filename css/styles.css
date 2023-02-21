@@ -15,6 +15,7 @@ body {
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
 }
 .visually-hidden {
   position: absolute;
@@ -55,7 +56,6 @@ body {
   text-decoration: none;
   font-style: normal;
   font-size: inherit;
-  line-height: 1.5;
 
   color: inherit;
 }
@@ -76,18 +76,11 @@ body {
 
   color: var(--dark-color);
 }
-.text {
-  font-weight: 400;
-  line-height: 1.5;
-
-  color: var(--text-color);
-}
 .btn {
   font-family: inherit;
   font-weight: 500;
   font-size: inherit;
-  line-height: 1.5;
-
+  line-height: inherit;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
