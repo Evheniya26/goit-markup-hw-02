@@ -10,6 +10,11 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: var(--dark-color);
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
 }
 .visually-hidden {
   position: absolute;
@@ -24,39 +29,23 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.logo-dark {
+.logo {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
 
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+}
+.logo-iris {
   color: var(--primary-brand-color);
 }
 
-.logo-dark span {
-  color: var(--dark-color);
-}
 .logo-light {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--primary-brand-color);
-}
-
-.logo-light span {
-  color: var(--white-color);
+  color: var(--light-color);
 }
 
 .list {
@@ -64,10 +53,10 @@ body {
 }
 .link {
   text-decoration: none;
-  font-size: 16px;
+  font-style: normal;
+  font-size: inherit;
   line-height: 1.5;
-
-  letter-spacing: 0.02em;
+  color: inherit;
 }
 .title {
   font-weight: 700;
@@ -75,7 +64,6 @@ body {
   line-height: 1.11;
 
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 
   color: var(--dark-color);
@@ -84,25 +72,17 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
-  letter-spacing: 0.02em;
-
   color: var(--dark-color);
 }
 .text {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
-
-  letter-spacing: 0.02em;
-
   color: var(--text-color);
 }
 .btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.5;
 
   display: flex;
@@ -122,8 +102,6 @@ body {
 .header-navigation {
 }
 .header-logo {
-}
-.header-logo span {
 }
 .header-list {
 }
@@ -150,8 +128,6 @@ body {
 .contact-item {
 }
 .contact-link {
-  font-style: normal;
-
   color: var(--text-color);
 }
 .contact-link:hover,
@@ -261,6 +237,7 @@ body {
   background-color: var(--dark-color);
 }
 .footer-logo {
+  color: var(--primary-brand-color);
 }
 .footer-text {
   color: var(--accent-color);
